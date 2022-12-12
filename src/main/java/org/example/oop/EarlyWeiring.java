@@ -1,4 +1,4 @@
-package org.example;
+package org.example.oop;
 
 public class EarlyWeiring {
     public static void main(String[] args) {
