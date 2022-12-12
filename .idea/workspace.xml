@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/LinkedListWithNulls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TreeSetHeapPollution.java" afterDir="false" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/core/IntegerPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BitOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/core/BitOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CollectionsExperiments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DateTimeAPITask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/DateTimeAPITask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IntegerPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Multithreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/core/StringIntern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Accountant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/CommissionedEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/HourlyEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanBonusCalculate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanPayCalculate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Money.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/SalariedEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/ListToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ListToMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/MapReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/MapReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/core/BitOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/core/BitOperators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -70,10 +54,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortedSetWithNullsAndComparable">
+  <component name="RunManager" selected="Application.org.example.core.IntegerPool">
     <configuration name="EarlyWeiring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.EarlyWeiring" />
-      <module name="JAT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.oop.EarlyWeiring" />
+      <module name="untitled" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.java8.*" />
@@ -162,6 +146,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.core.IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.core.IntegerPool" />
+      <module name="untitled" />
+      <option name="VM_PARAMETERS" value="-XX:AutoBoxCacheMax=200" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SortedSetWithNullsAndComparable" />
@@ -180,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668686642928</updated>
-      <workItem from="1670870307868" duration="1277000" />
+      <workItem from="1670870307868" duration="2211000" />
     </task>
     <servers />
   </component>
@@ -197,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
