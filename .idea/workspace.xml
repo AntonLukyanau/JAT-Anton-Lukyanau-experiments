@@ -5,36 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BitOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CollectionsExperiments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DateTimeAPITask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EarlyWeiring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IntegerPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringIntern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/botle_q_and_a/Spinner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Accountant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/CommissionedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanBonusCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanPayCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/ListToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/MapReplaceAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/types/topic/MyEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/types/topic/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/types/topic/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/LinkedListWithNulls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/TreeSetHeapPollution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BitOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/core/BitOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CollectionsExperiments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DateTimeAPITask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/DateTimeAPITask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IntegerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Multithreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/core/StringIntern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Accountant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/CommissionedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/HourlyEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanBonusCalculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/ICanPayCalculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/jat/SalariedEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/ListToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ListToMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/MapReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/MapReplaceAll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,25 +52,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton_Lukyanau1/Documents/learning/aws/module8/sns_sqs_attachments/aws-training&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Anton_Lukyanau1/IdeaProjects/epam/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Multithreading">
+}]]></component>
+  <component name="RunManager" selected="Application.SortedSetWithNullsAndComparable">
     <configuration name="EarlyWeiring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.EarlyWeiring" />
-      <module name="untitled" />
+      <module name="JAT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streamapi.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +88,11 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.IntegerPool" />
-      <module name="untitled" />
+      <module name="JAT" />
       <option name="VM_PARAMETERS" value="-XX:AutoBoxCacheMax=255" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListToMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streamapi.ListToMap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streamapi.*" />
+          <option name="PATTERN" value="org.example.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,7 +119,7 @@
       </method>
     </configuration>
     <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Multithreading" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Multithreading" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.botle_q_and_a.Spinner" />
+    <configuration name="SortedSetWithNullsAndComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.SortedSetWithNullsAndComparable" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.botle_q_and_a.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,17 +153,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedSetWithNullsAndComparable" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.EarlyWeiring" />
-        <item itemvalue="Application.Spinner" />
-        <item itemvalue="Application.TestMain" />
-        <item itemvalue="Application.ListToMap" />
       </list>
     </recent_temporary>
   </component>
@@ -179,8 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668686642928</updated>
+      <workItem from="1670870307868" duration="1277000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

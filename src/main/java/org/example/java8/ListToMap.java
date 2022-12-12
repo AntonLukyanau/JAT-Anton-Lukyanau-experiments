@@ -1,4 +1,4 @@
-package org.example.streamapi;
+package org.example.java8;
 
 import java.util.Arrays;
 import java.util.List;

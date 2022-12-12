@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 public class StringIntern {
     public static void main(String[] args) {

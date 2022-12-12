@@ -1,4 +1,4 @@
-package org.example;
+package org.example.core;
 
 public class BitOperators {
 
@@ -12,4 +12,11 @@ public class BitOperators {
         System.out.println(shiftedWithSignBit);
     }
 
+    public static class IntegerPool {
+        public static void main(String[] args) {
+            Integer first = 300;
+            Integer second = 300;
+            System.out.println(first == second);
+        }
+    }
 }

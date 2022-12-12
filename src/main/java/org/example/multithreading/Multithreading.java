@@ -1,4 +1,4 @@
-package org.example;
+package org.example.multithreading;
 
 
 import java.util.ArrayList;
@@ -11,40 +11,37 @@ import java.util.concurrent.atomic.AtomicInteger;
  * P.S. Из-за производительности решать лучше не используя многопоточность, но потренить её на этом примере можно.
  */
 public class Multithreading {
-    public static final int N = 12000;
-    public static final int M = 13000;
+    //случайное число от 1000 до 10_000
+    public static final int N = (int) (Math.random() * 9000 + 1000);
+    public static final int M = (int) (Math.random() * 9000 + 1000);
     public static final int THREAD_COUNT = Runtime.getRuntime().availableProcessors();
     static volatile long[][] desk;
-    private static AtomicInteger row = new AtomicInteger(1);
+    private static final AtomicInteger row = new AtomicInteger(1);
 
     //TODO: сделать "ворота" на desk.length потоков, чтобы все потоки начинали одновременно
-    //TODO:
     public static void main(String[] args) throws InterruptedException {
-        int n = N;
-        int m = M;
         boolean multiThreadingTurn = false;
         for (int test = 0; test < 16; test++) {
-            desk = new long[n][m];
-            for (int i = 0; i < n; i++) {
-                desk[i][0] = 1;
-            }
-            for (int i = 0; i < m; i++) {
-                desk[0][i] = 1;
-            }
-            if (multiThreadingTurn) {
-                fillArrayAsync();
-                row.set(1);
-            } else {
-                fillArray();
-            }
+            resetDesk();
+            long passedTime = multiThreadingTurn ? fillArrayAsync() : fillArray();
             multiThreadingTurn = !multiThreadingTurn;
-
-            System.out.printf("Добраться до нижнего правого угла можно %d способами%n", desk[n - 1][m - 1]);
+            System.out.println(passedTime + " ms");
+            System.out.printf("Добраться до нижнего правого угла можно %d способами\n", desk[N - 1][M - 1]);
             Thread.sleep(2000);
         }
     }
 
-    private static void fillArray() {
+    private static void resetDesk() {
+        desk = new long[N][M];
+        for (int i = 0; i < N; i++) {
+            desk[i][0] = 1;
+        }
+        for (int i = 0; i < M; i++) {
+            desk[0][i] = 1;
+        }
+    }
+
+    private static long fillArray() {
         long start = System.currentTimeMillis();
         for (int i = 1; i < desk.length; i++) {
             for (int j = 1; j < desk[i].length; j++) {
@@ -52,14 +49,15 @@ public class Multithreading {
             }
         }
         long end = System.currentTimeMillis();
-        System.out.println("Without multithreading: " + (end - start) + " ms");
+        System.out.print("Without multithreading: ");
+        return end - start;
     }
 
-
-    private static void fillArrayAsync() throws InterruptedException {
+    private static long fillArrayAsync() throws InterruptedException {
+        row.set(1);
         List<Thread> threads = new ArrayList<>();
-        for (int i = 1; i <= THREAD_COUNT; i++) {
-            threads.add(new Thread(new FillColumnThread(desk, i)));
+        for (int emptyRowNum = 1; emptyRowNum <= THREAD_COUNT; emptyRowNum++) {
+            threads.add(new Thread(new FillColumnTask(desk, emptyRowNum)));
         }
         Thread thread = threads.get(0);
         long start = System.currentTimeMillis();
@@ -69,14 +67,15 @@ public class Multithreading {
         }
         thread.join();
         long end = System.currentTimeMillis();
-        System.out.println("WITH multithreading: " + (end - start) + " ms");
+        System.out.print("WITH multithreading: ");
+        return end - start;
     }
 
-    static class FillColumnThread implements Runnable {
+    static class FillColumnTask implements Runnable {
         private int workRow;
         private final long[][] desk;
 
-        public FillColumnThread(long[][] desk, int workRow) {
+        public FillColumnTask(long[][] desk, int workRow) {
             super();
             this.workRow = workRow;
             this.desk = desk;
@@ -84,7 +83,7 @@ public class Multithreading {
 
         @Override
         public void run() {
-            while(workRow < desk.length) {
+            while (workRow < desk.length) {
                 for (int i = 1; i < desk[workRow].length; i++) {
                     if (desk[workRow - 1][i] == 0) {
                         Thread.yield();
