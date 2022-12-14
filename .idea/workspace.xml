@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DynamicFilling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.oop.Main">
+  <component name="RunManager" selected="Application.DynamicFilling">
+    <configuration name="DynamicFilling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.DynamicFilling" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.types.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -83,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.Multithreading" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.types.topic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicFilling" />
         <item itemvalue="Application.org.example.oop.Main" />
         <item itemvalue="Application.SortedSetWithNullsAndComparable" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Multithreading" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +185,7 @@
       <workItem from="1670870307868" duration="2429000" />
       <workItem from="1670872777408" duration="194000" />
       <workItem from="1670932751363" duration="2375000" />
+      <workItem from="1670956644580" duration="2337000" />
     </task>
     <servers />
   </component>

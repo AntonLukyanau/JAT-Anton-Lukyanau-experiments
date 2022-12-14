@@ -3,6 +3,7 @@ package org.example.multithreading;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -10,19 +11,23 @@ import java.util.concurrent.atomic.AtomicInteger;
  * только ВНИЗ или ВПРАВО на одну клетку. Вопрос: сколько способов добраться до нижнего правого угла доски существует?
  * P.S. Из-за производительности решать лучше не используя многопоточность, но потренить её на этом примере можно.
  */
-public class Multithreading {
+public class DynamicFilling {
     //случайное число от 1000 до 10_000
     public static final int N = (int) (Math.random() * 9000 + 1000);
     public static final int M = (int) (Math.random() * 9000 + 1000);
     public static final int THREAD_COUNT = Runtime.getRuntime().availableProcessors();
-    static volatile long[][] desk;
+//    private static CountDownLatch countDownLatch;
+
+    private static volatile long[][] desk;
     private static final AtomicInteger row = new AtomicInteger(1);
 
-    //TODO: сделать "ворота" на desk.length потоков, чтобы все потоки начинали одновременно
     public static void main(String[] args) throws InterruptedException {
         boolean multiThreadingTurn = false;
+        System.out.printf("Массив %d x %d\n", N, M);
+        System.out.printf("Используется %d потоков\n", THREAD_COUNT);
         for (int test = 0; test < 16; test++) {
             resetDesk();
+//            countDownLatch = new CountDownLatch(THREAD_COUNT);
             long passedTime = multiThreadingTurn ? fillArrayAsync() : fillArray();
             multiThreadingTurn = !multiThreadingTurn;
             System.out.println(passedTime + " ms");
@@ -83,6 +88,11 @@ public class Multithreading {
 
         @Override
         public void run() {
+//            countDownLatch.countDown();
+//            long downLatchCount = countDownLatch.getCount();
+//            try {
+//                countDownLatch.await();
+//                System.out.printf("Поток %s ждал %d потоков\n", Thread.currentThread().getName(), downLatchCount);
             while (workRow < desk.length) {
                 for (int i = 1; i < desk[workRow].length; i++) {
                     if (desk[workRow - 1][i] == 0) {
@@ -94,6 +104,9 @@ public class Multithreading {
                 }
                 workRow = row.getAndIncrement();
             }
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
         }
     }
 
