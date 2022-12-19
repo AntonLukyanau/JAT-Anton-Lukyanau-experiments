@@ -9,6 +9,7 @@ public class Child extends Parent {
 
     public Child() {
         this(1,2,3,4);
+        System.out.println("child without parameters");
     }
 
     public Child(int a) {
@@ -28,6 +29,10 @@ public class Child extends Parent {
     public Child(int a, int b, int c, int d) {
         this(a, b, c);
         this.d = d;
+    }
+
+    public Child(String par) {
+        System.out.println("child with str param");
     }
 
     @Override
