@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 @Builder
@@ -13,6 +14,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @ToString
 public class Person implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
 
     @JsonProperty
     private int id;
