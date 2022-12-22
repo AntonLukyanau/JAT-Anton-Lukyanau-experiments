@@ -35,6 +35,15 @@ public class Child extends Parent {
         System.out.println("child with str param");
     }
 
+    public long getInt() {
+        return 1L;
+    }
+
+//    @Override нельзя
+    public void print(Object str) {
+        System.out.println(str);
+    }
+
     @Override
     public String toString() {
         String first = "Child{";

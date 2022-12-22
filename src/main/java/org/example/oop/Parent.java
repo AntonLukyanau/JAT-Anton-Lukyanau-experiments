@@ -22,6 +22,14 @@ public class Parent {
         System.out.println("parent without params");
     }
 
+    public long getInt() {
+        return 1;
+    }
+
+    public void print(String str) {
+        System.out.println(str);
+    }
+
     @Override
     public String toString() {
         return "name='" + name + '\'';
