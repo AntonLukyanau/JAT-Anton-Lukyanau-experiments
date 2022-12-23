@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="rmi">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/WaysToCreateStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/InterviewTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/ConstantInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/WaysToCreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/WaysToCreateStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
       <list>
         <option value="Enum" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,7 +82,7 @@
       <recent name="org.example.java8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.WaysToCreateStream">
     <configuration name="IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.core.IntegerPool" />
       <module name="untitled" />
@@ -136,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.StreamToArray" />
+    <configuration name="WaysToCreateStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.WaysToCreateStream" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -188,17 +193,17 @@
       <item itemvalue="Application.org.example.core.IntegerPool" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StreamMethods" />
-      <item itemvalue="Application.StreamToArray" />
+      <item itemvalue="Application.WaysToCreateStream" />
       <item itemvalue="Application.WriteFewObjectsMain" />
       <item itemvalue="Application.ReadFewObjectsMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaysToCreateStream" />
+        <item itemvalue="Application.StreamMethods" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ReadFewObjectsMain" />
         <item itemvalue="Application.WriteFewObjectsMain" />
-        <item itemvalue="Application.StreamMethods" />
-        <item itemvalue="Application.StreamToArray" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +221,7 @@
       <workItem from="1670956644580" duration="27709000" />
       <workItem from="1671190759739" duration="8379000" />
       <workItem from="1671442022973" duration="34618000" />
-      <workItem from="1671722664450" duration="13706000" />
+      <workItem from="1671722664450" duration="22415000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
