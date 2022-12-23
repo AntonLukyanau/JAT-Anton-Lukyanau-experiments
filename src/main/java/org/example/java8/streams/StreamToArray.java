@@ -1,5 +1,6 @@
-package org.example.java8;
+package org.example.java8.streams;
 
+import org.example.java8.ToArrayCollector;
 import org.example.model.Person;
 
 import java.util.Arrays;
