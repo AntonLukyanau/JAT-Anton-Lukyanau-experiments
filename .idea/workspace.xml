@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="anti-pattern constant interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DeadlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/LiveLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/longeststr/FindLongestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/longeststr/FinderLongestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/longeststr/MultiLongestStringThreadManager.java" afterDir="false" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="ThreadSafeQueue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/process/RunNewProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/StreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/StreamMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,12 @@
       <recent name="org.example.java8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindLongestString">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="git status" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RunNewProcess">
     <configuration name="FindLongestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.multithreading.longeststr.FindLongestString" />
       <module name="untitled" />
@@ -180,6 +179,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunNewProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.process.RunNewProcess" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.core.IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -204,17 +216,17 @@
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
+      <item itemvalue="Application.RunNewProcess" />
       <item itemvalue="Application.FindLongestString" />
       <item itemvalue="Application.LiveLockExample" />
       <item itemvalue="Application.LiveLockExample (1)" />
-      <item itemvalue="Application.LiveLockExample (2)" />
       <item itemvalue="Application.LivelockExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunNewProcess" />
         <item itemvalue="Application.FindLongestString" />
         <item itemvalue="Application.LiveLockExample" />
-        <item itemvalue="Application.LiveLockExample (2)" />
         <item itemvalue="Application.LiveLockExample (1)" />
         <item itemvalue="Application.LivelockExample" />
       </list>
@@ -235,6 +247,7 @@
       <workItem from="1671190759739" duration="8379000" />
       <workItem from="1671442022973" duration="34618000" />
       <workItem from="1671722664450" duration="32135000" />
+      <workItem from="1672396711699" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -332,5 +345,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$LongestStringFinderTest_testFindLongestString.ic" NAME="LongestStringFinderTest.testFindLongestString Coverage Results" MODIFIED="1672145206325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.multithreading.longeststr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$LongestStringFinderTest.ic" NAME="LongestStringFinderTest Coverage Results" MODIFIED="1672146497546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.multithreading.longeststr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/untitled$LongestStringFinderTest_testFindLongestString_containsNull.ic" NAME="LongestStringFinderTest.testFindLongestString_containsNull Coverage Results" MODIFIED="1672145617138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.multithreading.longeststr.*</FILTER>
+    </SUITE>
   </component>
 </project>
