@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="collection cloner. problem in comments" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="serialization vs json. problem in comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Hfqm6tvzAVxb4pWZcQIpvTcFLj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -255,7 +257,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="6723000" />
+      <workItem from="1673602731787" duration="7119000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -425,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673625478527</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="serialization vs json. problem in comments">
+      <created>1673625654322</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625654322</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="Serialization test" />
     <MESSAGE value="canonical constructor; protected static final fields; Init block on new hashMap; Stream to array conversion" />
     <MESSAGE value="readUnshared and writeUnshared" />
@@ -469,7 +477,8 @@
     <MESSAGE value="new process. problem in comments" />
     <MESSAGE value="dynamic filling two dimensions array. problem in comments" />
     <MESSAGE value="collection cloner. problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="collection cloner. problem in comments" />
+    <MESSAGE value="serialization vs json. problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="serialization vs json. problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

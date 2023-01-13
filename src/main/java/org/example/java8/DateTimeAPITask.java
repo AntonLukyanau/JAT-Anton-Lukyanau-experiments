@@ -5,6 +5,9 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ Задача: Вывести все Пятницы 13-го в году
+ */
 public class DateTimeAPITask {
 
     public static void main(String[] args) {
