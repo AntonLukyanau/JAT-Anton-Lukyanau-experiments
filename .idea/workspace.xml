@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="custom collector. problem in comments" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="map.replaceAll. problem in comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +255,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="5307000" />
+      <workItem from="1673602731787" duration="5614000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -383,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673624023249</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="map.replaceAll. problem in comments">
+      <created>1673624369402</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624369402</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +428,8 @@
     <MESSAGE value="generics. Add a problem in comments" />
     <MESSAGE value="List&lt;String&gt; to Map&lt;String, Integer&gt;. Add a problem in comments" />
     <MESSAGE value="custom collector. problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom collector. problem in comments" />
+    <MESSAGE value="map.replaceAll. problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="map.replaceAll. problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,6 +6,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ Задача: реализовать потокобезопасную очередь, используя ReentrantLock
+ */
 public class ThreadSafeQueue<T> implements Queue<T> {
 
     private final Queue<T> queue = new LinkedList<>();
