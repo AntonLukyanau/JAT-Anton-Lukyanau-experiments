@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="copying object. tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/InitBlockNewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/InitBlockNewHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" afterDir="false" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="generics. Add a problem in comments">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/ListToMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/ListToMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +263,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="3534000" />
+      <workItem from="1673602731787" duration="4341000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -358,7 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673621323315</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Init block on new hashMap. Add problem in comments">
+      <created>1673622376133</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622376133</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TreeSet and null elements. Comparator vs Comparable">
+      <created>1673622493536</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673622493536</updated>
+    </task>
+    <task id="LOCAL-00016" summary="generics. Add a problem in comments">
+      <created>1673623028697</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673623028697</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +410,10 @@
     <MESSAGE value="generics" />
     <MESSAGE value="copying object" />
     <MESSAGE value="copying object. tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="copying object. tests" />
+    <MESSAGE value="Init block on new hashMap. Add problem in comments" />
+    <MESSAGE value="TreeSet and null elements. Comparator vs Comparable" />
+    <MESSAGE value="generics. Add a problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics. Add a problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

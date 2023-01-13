@@ -3,6 +3,10 @@ package org.example.java8.streams;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ Задача: Дан лист строк. Нужно превратить его в Map, где ключ - строка, value - количество вхождений этой строки в лист.
+ Использовать Stream API.
+ */
 public class ListToMap {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("qqq", "www", "eee", "qqq", "eee", "qqq", "qqq", "qqq");
