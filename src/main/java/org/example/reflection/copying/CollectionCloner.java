@@ -3,6 +3,12 @@ package org.example.reflection.copying;
 import java.io.*;
 import java.util.Collection;
 
+/**
+ Задача: напишите метод, который получает в качестве параметра Collection<T>,
+ а возвращает копию этой коллекции с тему же элементами.
+ Ограничения: скопированная коллекция должна быть того же класса, что и входящая.
+    Т.е. collection.getClass() и copy.getClass() должны возвращать одно и то же
+ */
 public class CollectionCloner<T> {
 
     public Collection<T> cloneCollection(Collection<T> collection) {
