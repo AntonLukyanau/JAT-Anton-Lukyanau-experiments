@@ -3,6 +3,10 @@ package org.example.java8;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ Задача: Поменять местами значения в Map1 и Map2 при помощи одного вызова метода replaceAll
+ P.S. метод map.put(key,value) возвращает старое value, которое соответствовало key
+ */
 public class MapReplaceAll {
     static Map<String, String> m1;
     static Map<String, String> m2;

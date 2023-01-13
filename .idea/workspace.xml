@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="List&lt;String&gt; to Map&lt;String, Integer&gt;. Add a problem in comments">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ToArrayCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ToArrayCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/StreamToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/StreamToArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="custom collector. problem in comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +111,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamToArray">
+  <component name="RunManager" selected="Application.MapReplaceAll">
     <configuration name="GenericsStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericsStarter" />
       <module name="untitled" />
@@ -142,6 +139,19 @@
         <option name="credential" />
         <option name="region" />
         <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapReplaceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.MapReplaceAll" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,38 +217,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.reflection.copying.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.reflection.copying" />
-      <option name="MAIN_CLASS_NAME" value="org.example.reflection.copying.FullCopyClonerTest" />
-      <option name="METHOD_NAME" value="deepCopy_shouldReturnObjectWithSameStructure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
+      <item itemvalue="Application.MapReplaceAll" />
       <item itemvalue="Application.SortedSetWithNullsAndComparable" />
       <item itemvalue="Application.StreamToArray" />
       <item itemvalue="Application.TreeSetHeapPollution" />
       <item itemvalue="Application.GenericsStarter" />
-      <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapReplaceAll" />
         <item itemvalue="Application.StreamToArray" />
         <item itemvalue="Application.TreeSetHeapPollution" />
         <item itemvalue="Application.SortedSetWithNullsAndComparable" />
         <item itemvalue="Application.GenericsStarter" />
-        <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +255,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="4768000" />
+      <workItem from="1673602731787" duration="5307000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -382,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673623239750</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="custom collector. problem in comments">
+      <created>1673624023249</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624023249</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +420,8 @@
     <MESSAGE value="TreeSet and null elements. Comparator vs Comparable" />
     <MESSAGE value="generics. Add a problem in comments" />
     <MESSAGE value="List&lt;String&gt; to Map&lt;String, Integer&gt;. Add a problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="List&lt;String&gt; to Map&lt;String, Integer&gt;. Add a problem in comments" />
+    <MESSAGE value="custom collector. problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom collector. problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
