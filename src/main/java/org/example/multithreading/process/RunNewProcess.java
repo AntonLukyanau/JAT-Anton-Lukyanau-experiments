@@ -4,6 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
 
+/**
+ Задача: Создайте новый текстовый файл с каким-нибудь текстом. Затем создайте новый процесс, который откроет этот файл.
+ Затем завершите этот процесс и очистите/удалите файл.
+ */
 public class RunNewProcess {
     public static void main(String[] args) {
         try {

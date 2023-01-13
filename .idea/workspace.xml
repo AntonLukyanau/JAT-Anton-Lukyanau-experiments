@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="map.replaceAll. problem in comments" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="find longest string with multithreading. problem in comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +255,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="5614000" />
+      <workItem from="1673602731787" duration="6084000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -390,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673624369402</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ThreadSafeQueue. problem in comments">
+      <created>1673624526092</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624526092</updated>
+    </task>
+    <task id="LOCAL-00021" summary="find longest string with multithreading. problem in comments">
+      <created>1673624845824</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673624845824</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +443,9 @@
     <MESSAGE value="List&lt;String&gt; to Map&lt;String, Integer&gt;. Add a problem in comments" />
     <MESSAGE value="custom collector. problem in comments" />
     <MESSAGE value="map.replaceAll. problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="map.replaceAll. problem in comments" />
+    <MESSAGE value="ThreadSafeQueue. problem in comments" />
+    <MESSAGE value="find longest string with multithreading. problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="find longest string with multithreading. problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
