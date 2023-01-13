@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="find longest string with multithreading. problem in comments" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="collection cloner. problem in comments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +255,7 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="6084000" />
+      <workItem from="1673602731787" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -404,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673624845824</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new process. problem in comments">
+      <created>1673625020750</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625020750</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dynamic filling two dimensions array. problem in comments">
+      <created>1673625226814</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625226814</updated>
+    </task>
+    <task id="LOCAL-00024" summary="collection cloner. problem in comments">
+      <created>1673625478527</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625478527</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +466,10 @@
     <MESSAGE value="map.replaceAll. problem in comments" />
     <MESSAGE value="ThreadSafeQueue. problem in comments" />
     <MESSAGE value="find longest string with multithreading. problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="find longest string with multithreading. problem in comments" />
+    <MESSAGE value="new process. problem in comments" />
+    <MESSAGE value="dynamic filling two dimensions array. problem in comments" />
+    <MESSAGE value="collection cloner. problem in comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection cloner. problem in comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

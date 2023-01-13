@@ -9,6 +9,9 @@ import lombok.ToString;
 import java.io.Serial;
 import java.io.Serializable;
 
+/**
+ Задача: Написать бенчмарк для проверки производительности сериализации/десериализации и конвертирования в/из json
+ */
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
