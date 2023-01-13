@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="ThreadSafeQueue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/process/RunNewProcess.java" afterDir="false" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="copying object. tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/InitBlockNewHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/InitBlockNewHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/SortedSetWithNullsAndComparable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +20,33 @@
         <option value="Enum" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;reviewState&quot;: &quot;NO_REVIEW&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b7af605e-e8ee-4a41-b60d-93d72b723c54" />
+        <option name="url" value="https://github.com/AntonLukyanau/JAT-Anton-Lukyanau-experiments.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,6 +57,9 @@
         <option value="sonar" />
       </list>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Hfqm6tvzAVxb4pWZcQIpvTcFLj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,13 +77,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton_Lukyanau1/IdeaProjects/epam/Multithreading&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -69,8 +96,15 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.rmi" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.serializable" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.reflection.copying" />
+      <recent name="org.example.reflection.localclasses" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.java8" />
@@ -81,13 +115,13 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunNewProcess">
-    <configuration name="FindLongestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.longeststr.FindLongestString" />
+  <component name="RunManager" selected="Application.TreeSetHeapPollution">
+    <configuration name="GenericsStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericsStarter" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.longeststr.*" />
+          <option name="PATTERN" value="org.example.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiveLockExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.LiveLockExample" />
+    <configuration name="SortedSetWithNullsAndComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.SortedSetWithNullsAndComparable" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,64 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiveLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.LiveLockExample" />
+    <configuration name="TreeSetHeapPollution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TreeSetHeapPollution" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.longeststr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiveLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.LiveLockExample" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.longeststr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiveLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.LiveLockExample" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.longeststr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LivelockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.LivelockExample" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.longeststr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunNewProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.process.RunNewProcess" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.multithreading.process.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,22 +195,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FullCopyClonerTest.deepCopy_shouldReturnNewObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.reflection.copying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.reflection.copying" />
+      <option name="MAIN_CLASS_NAME" value="org.example.reflection.copying.FullCopyClonerTest" />
+      <option name="METHOD_NAME" value="deepCopy_shouldReturnNewObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.reflection.copying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.reflection.copying" />
+      <option name="MAIN_CLASS_NAME" value="org.example.reflection.copying.FullCopyClonerTest" />
+      <option name="METHOD_NAME" value="deepCopy_shouldReturnObjectWithSameStructure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
-      <item itemvalue="Application.RunNewProcess" />
-      <item itemvalue="Application.FindLongestString" />
-      <item itemvalue="Application.LiveLockExample" />
-      <item itemvalue="Application.LiveLockExample (1)" />
-      <item itemvalue="Application.LivelockExample" />
+      <item itemvalue="Application.SortedSetWithNullsAndComparable" />
+      <item itemvalue="Application.TreeSetHeapPollution" />
+      <item itemvalue="Application.GenericsStarter" />
+      <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnNewObject" />
+      <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunNewProcess" />
-        <item itemvalue="Application.FindLongestString" />
-        <item itemvalue="Application.LiveLockExample" />
-        <item itemvalue="Application.LiveLockExample (1)" />
-        <item itemvalue="Application.LivelockExample" />
+        <item itemvalue="Application.TreeSetHeapPollution" />
+        <item itemvalue="Application.SortedSetWithNullsAndComparable" />
+        <item itemvalue="Application.GenericsStarter" />
+        <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnObjectWithSameStructure" />
+        <item itemvalue="JUnit.FullCopyClonerTest.deepCopy_shouldReturnNewObject" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +262,10 @@
       <workItem from="1671442022973" duration="34618000" />
       <workItem from="1671722664450" duration="32135000" />
       <workItem from="1672396711699" duration="1330000" />
+      <workItem from="1672816343009" duration="60423000" />
+      <workItem from="1673428733065" duration="16209000" />
+      <workItem from="1673519000894" duration="3738000" />
+      <workItem from="1673602731787" duration="3534000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -305,7 +323,42 @@
       <option name="project" value="LOCAL" />
       <updated>1671804950953</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="duplicate field name in extended class. Invoke a method before invoke a constructor">
+      <created>1673260743543</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673260743543</updated>
+    </task>
+    <task id="LOCAL-00010" summary="immutable class">
+      <created>1673373033912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673373033912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="generics">
+      <created>1673508803196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673508803196</updated>
+    </task>
+    <task id="LOCAL-00012" summary="copying object">
+      <created>1673621304750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673621304750</updated>
+    </task>
+    <task id="LOCAL-00013" summary="copying object. tests">
+      <created>1673621323315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673621323315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,15 +386,30 @@
     <MESSAGE value="rmi" />
     <MESSAGE value="stream interview tasks" />
     <MESSAGE value="anti-pattern constant interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="anti-pattern constant interface" />
+    <MESSAGE value="duplicate field name in extended class. Invoke a method before invoke a constructor" />
+    <MESSAGE value="immutable class" />
+    <MESSAGE value="generics" />
+    <MESSAGE value="copying object" />
+    <MESSAGE value="copying object. tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="copying object. tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/reflection/TestReflection.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/oop/a/ClassA.java</url>
           <line>8</line>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/oop/a/ClassA.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/oop/b/ClassB.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

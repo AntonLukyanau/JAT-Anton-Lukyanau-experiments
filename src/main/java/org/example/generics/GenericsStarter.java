@@ -5,6 +5,13 @@ import org.example.generics.model.Camera;
 import org.example.generics.model.Phone;
 import org.example.generics.model.Product;
 
+
+/**
+ Задача: Реализовать иерархию классов Product -> Camera, Product -> Phone.
+ Родительский класс Product должен реализовывать Comparable.
+ При этом при помощи дженериков нужно ограничить сравнение таким образом, чтобы камера могла быть сравнена только с камерой,
+ телефон только с телефоном. Сравнение камеры и телефона методом compareTo должно вызывать ошибку компиляции.
+ */
 public class GenericsStarter {
     public static void main(String[] args) {
 
