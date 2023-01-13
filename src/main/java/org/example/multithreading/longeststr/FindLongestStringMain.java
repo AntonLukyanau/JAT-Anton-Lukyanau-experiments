@@ -2,6 +2,11 @@ package org.example.multithreading.longeststr;
 
 import java.util.Arrays;
 
+/**
+ Задача1: Реализовать генерацию строки случайной длины содержащую случайные буквы латинского алфавита
+ Задача2: Реализовать поиск самой длинной строки в массиве.
+            Для улучшения производительности использовать многопоточность
+ */
 public class FindLongestStringMain {
 
     public static void main(String[] args) {
@@ -24,7 +29,7 @@ public class FindLongestStringMain {
         int length = (int) (Math.random() * 100);
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < length; i++) {
-            stringBuilder.append((char) (Math.random() * 28 + 92));
+            stringBuilder.append((char) (Math.random() * 28 + 'a'));
         }
         return stringBuilder.toString();
     }
