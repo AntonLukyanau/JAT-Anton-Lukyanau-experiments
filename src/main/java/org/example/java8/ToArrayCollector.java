@@ -7,6 +7,9 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
+/**
+ Задача: Напишите свой коллектор для преобразования элементов стрима в массив Integer
+ */
 public class ToArrayCollector implements Collector<Integer, Collection<Integer>, Integer[]> {
 
     @Override
