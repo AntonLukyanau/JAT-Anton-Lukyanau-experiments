@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="serialization vs json. problem in comments">
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="Phantom reference use for finalization of resources">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/ExceptionStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/metaspace/CleaningMetaspaceStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/soft/SoftReferenceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/soft/SomeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/soft/SomeEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/soft/cache/Cache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gc/phantom/ResourceCloser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gc/phantom/ResourceCloser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +120,26 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapReplaceAll">
-    <configuration name="GenericsStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericsStarter" />
+  <component name="RunManager" selected="Application.SoftReferenceMain">
+    <configuration name="ExceptionStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.ExceptionStarter" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="PATTERN" value="org.example.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gc.GCStarter" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gc.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSetWithNullsAndComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.SortedSetWithNullsAndComparable" />
+    <configuration name="PhantomReferenceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gc.phantom.PhantomReferenceMain" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="org.example.gc.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,27 +192,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.streams.StreamToArray" />
+    <configuration name="SoftReferenceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gc.soft.SoftReferenceMain" />
       <module name="untitled" />
+      <option name="VM_PARAMETERS" value="-Xmx6m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.java8.streams.*" />
+          <option name="PATTERN" value="org.example.gc.soft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetHeapPollution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TreeSetHeapPollution" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,19 +235,19 @@
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
+      <item itemvalue="Application.PhantomReferenceMain" />
+      <item itemvalue="Application.SoftReferenceMain" />
+      <item itemvalue="Application.ExceptionStarter" />
+      <item itemvalue="Application.GCStarter" />
       <item itemvalue="Application.MapReplaceAll" />
-      <item itemvalue="Application.SortedSetWithNullsAndComparable" />
-      <item itemvalue="Application.StreamToArray" />
-      <item itemvalue="Application.TreeSetHeapPollution" />
-      <item itemvalue="Application.GenericsStarter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SoftReferenceMain" />
+        <item itemvalue="Application.PhantomReferenceMain" />
+        <item itemvalue="Application.ExceptionStarter" />
+        <item itemvalue="Application.GCStarter" />
         <item itemvalue="Application.MapReplaceAll" />
-        <item itemvalue="Application.StreamToArray" />
-        <item itemvalue="Application.TreeSetHeapPollution" />
-        <item itemvalue="Application.SortedSetWithNullsAndComparable" />
-        <item itemvalue="Application.GenericsStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +270,13 @@
       <workItem from="1672816343009" duration="60423000" />
       <workItem from="1673428733065" duration="16209000" />
       <workItem from="1673519000894" duration="3738000" />
-      <workItem from="1673602731787" duration="7119000" />
+      <workItem from="1673602731787" duration="8654000" />
+      <workItem from="1673856329774" duration="14488000" />
+      <workItem from="1673957421523" duration="1984000" />
+      <workItem from="1674027857356" duration="340000" />
+      <workItem from="1674028979864" duration="20465000" />
+      <workItem from="1674118389075" duration="14634000" />
+      <workItem from="1674544026760" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -434,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673625654322</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="13th Fridays. problem in comments">
+      <created>1673626168308</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1673626168308</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Phantom reference use for finalization of resources">
+      <created>1674118991394</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674118991394</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,8 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Serialization test" />
-    <MESSAGE value="canonical constructor; protected static final fields; Init block on new hashMap; Stream to array conversion" />
     <MESSAGE value="readUnshared and writeUnshared" />
     <MESSAGE value="example of classes which have been loaded by Platform Classloader" />
     <MESSAGE value="extending types on overriding" />
@@ -478,7 +509,9 @@
     <MESSAGE value="dynamic filling two dimensions array. problem in comments" />
     <MESSAGE value="collection cloner. problem in comments" />
     <MESSAGE value="serialization vs json. problem in comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="serialization vs json. problem in comments" />
+    <MESSAGE value="13th Fridays. problem in comments" />
+    <MESSAGE value="Phantom reference use for finalization of resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phantom reference use for finalization of resources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,6 +530,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/oop/b/ClassB.java</url>
           <line>10</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/exceptions/ExceptionStarter.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

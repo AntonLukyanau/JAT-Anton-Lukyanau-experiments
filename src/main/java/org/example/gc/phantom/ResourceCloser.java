@@ -45,9 +45,7 @@ public class ResourceCloser<T> implements Runnable {
             Map<Reference<T>, ? extends Set<? extends AutoCloseable>> referencedResources) {
 
         Set<? extends AutoCloseable> resources = referencedResources.get(reference);
-        for (AutoCloseable resource : resources) {
-            close(resource);
-        }
+        resources.parallelStream().forEach(this::close);
     }
 
     private void close(AutoCloseable resource) {
