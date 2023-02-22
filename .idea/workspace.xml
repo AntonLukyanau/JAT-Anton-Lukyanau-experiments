@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="test exceptions">
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="livecoding on the interview">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/iscompile/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/iscompile/Singleton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/QueryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/livecoding/date20_02_2023/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DynamicFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DynamicFilling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,33 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.example.livecoding.date20_02_2023.Main">
+  <component name="RunManager" selected="Application.org.example.iscompile.Main">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sealedexpl.B" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sealedexpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.ExceptionStarter" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.core.IntegerPool" />
       <module name="untitled" />
@@ -130,51 +154,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.oop.Main" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhantomReferenceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gc.phantom.PhantomReferenceMain" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gc.phantom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftReferenceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.gc.soft.SoftReferenceMain" />
-      <module name="untitled" />
-      <option name="VM_PARAMETERS" value="-Xmx6m" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.gc.soft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,6 +200,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.iscompile.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.iscompile.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.iscompile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.livecoding.date20_02_2023.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.livecoding.date20_02_2023.Main" />
       <module name="untitled" />
@@ -237,19 +229,19 @@
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
+      <item itemvalue="Application.B" />
+      <item itemvalue="Application.ExceptionStarter" />
+      <item itemvalue="Application.org.example.iscompile.Main" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.org.example.livecoding.date20_02_2023.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.PhantomReferenceMain" />
-      <item itemvalue="Application.SoftReferenceMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.iscompile.Main" />
+        <item itemvalue="Application.ExceptionStarter" />
+        <item itemvalue="Application.B" />
         <item itemvalue="Application.org.example.livecoding.date20_02_2023.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SoftReferenceMain" />
-        <item itemvalue="Application.PhantomReferenceMain" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +275,7 @@
       <workItem from="1674817444405" duration="1645000" />
       <workItem from="1675946085411" duration="3586000" />
       <workItem from="1676874755887" duration="2538000" />
+      <workItem from="1677067317097" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -487,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674810549655</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="livecoding on the interview">
+      <created>1677067400914</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677067400914</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="extending types on overriding" />
     <MESSAGE value="rmi" />
     <MESSAGE value="stream interview tasks" />
     <MESSAGE value="anti-pattern constant interface" />
@@ -531,7 +530,8 @@
     <MESSAGE value="Phantom reference use for finalization of resources" />
     <MESSAGE value="Soft reference use for caching" />
     <MESSAGE value="test exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="test exceptions" />
+    <MESSAGE value="livecoding on the interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="livecoding on the interview" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
