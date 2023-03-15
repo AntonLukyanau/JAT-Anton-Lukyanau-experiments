@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="livecoding on the interview">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/iscompile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/iscompile/Singleton.java" afterDir="false" />
+    <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="brainstorm 2023-02-22">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/TwoArraysContainsSameItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sjowsomething/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DynamicFilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/DynamicFilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/reflection/TestReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/reflection/TestReflection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -120,33 +117,7 @@
       <command value="git status" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.example.iscompile.Main">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sealedexpl.B" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.sealedexpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.ExceptionStarter" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoArraysContainsSameItems">
     <configuration name="IntegerPool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.core.IntegerPool" />
       <module name="untitled" />
@@ -166,12 +137,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.livecoding.date20_02_2023.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sjowsomething.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.livecoding.date20_02_2023.*" />
+          <option name="PATTERN" value="org.example.sjowsomething.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.reflection.TestReflection" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoArraysContainsSameItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.TwoArraysContainsSameItems" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +231,19 @@
     <list>
       <item itemvalue="Application.IntegerPool" />
       <item itemvalue="Application.org.example.core.IntegerPool" />
-      <item itemvalue="Application.B" />
-      <item itemvalue="Application.ExceptionStarter" />
+      <item itemvalue="Application.TwoArraysContainsSameItems" />
+      <item itemvalue="Application.TestReflection" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.org.example.iscompile.Main" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.org.example.livecoding.date20_02_2023.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.iscompile.Main" />
-        <item itemvalue="Application.ExceptionStarter" />
-        <item itemvalue="Application.B" />
+        <item itemvalue="Application.TwoArraysContainsSameItems" />
+        <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.org.example.livecoding.date20_02_2023.Main" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.org.example.iscompile.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +277,15 @@
       <workItem from="1674817444405" duration="1645000" />
       <workItem from="1675946085411" duration="3586000" />
       <workItem from="1676874755887" duration="2538000" />
-      <workItem from="1677067317097" duration="3718000" />
+      <workItem from="1677067317097" duration="4982000" />
+      <workItem from="1677074710824" duration="608000" />
+      <workItem from="1677148293414" duration="1694000" />
+      <workItem from="1677151569404" duration="2523000" />
+      <workItem from="1677231502339" duration="176000" />
+      <workItem from="1677231733617" duration="519000" />
+      <workItem from="1677845670376" duration="3280000" />
+      <workItem from="1678363898915" duration="1934000" />
+      <workItem from="1678906076510" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
@@ -487,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677067400914</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="brainstorm 2023-02-22">
+      <created>1677071220502</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677071220502</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rmi" />
     <MESSAGE value="stream interview tasks" />
     <MESSAGE value="anti-pattern constant interface" />
     <MESSAGE value="duplicate field name in extended class. Invoke a method before invoke a constructor" />
@@ -531,7 +547,8 @@
     <MESSAGE value="Soft reference use for caching" />
     <MESSAGE value="test exceptions" />
     <MESSAGE value="livecoding on the interview" />
-    <option name="LAST_COMMIT_MESSAGE" value="livecoding on the interview" />
+    <MESSAGE value="brainstorm 2023-02-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="brainstorm 2023-02-22" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
