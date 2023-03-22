@@ -14,9 +14,9 @@ public class Parent {
 
     private String name;
 
-//    public Parent(String name) {
+//    public SealedParent(String name) {
 //        this.name = name;
-//        System.out.println("Parent was successfully created");
+//        System.out.println("SealedParent was successfully created");
 //    }
     public Parent() {
         System.out.println("parent without params");

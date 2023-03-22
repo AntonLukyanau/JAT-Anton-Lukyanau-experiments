@@ -18,10 +18,10 @@ public class InterviewTasks {
                 .findAny();
 
         List<Employee> employeeList = Arrays.asList(
-                new Employee("Alice", "HR"),
-                new Employee("Bob", "HR"),
-                new Employee("Charlie", "Sales"),
-                new Employee("Eve", "Sales")
+                new Employee("Alice", "HR", 0, 0),
+                new Employee("Bob", "HR", 0, 0),
+                new Employee("Charlie", "Sales", 0, 0),
+                new Employee("Eve", "Sales", 0, 0)
         );
 
         int hrCount = (int) employeeList.stream()

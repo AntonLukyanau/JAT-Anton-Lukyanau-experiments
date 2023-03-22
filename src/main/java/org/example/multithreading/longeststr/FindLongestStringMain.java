@@ -1,5 +1,7 @@
 package org.example.multithreading.longeststr;
 
+import org.example.StringUtil;
+
 import java.util.Arrays;
 
 /**
@@ -12,7 +14,7 @@ public class FindLongestStringMain {
     public static void main(String[] args) {
         String[] strings = new String[(int) (Math.random() * 500)];
         for (int i = 0; i < strings.length; i++) {
-            strings[i] = generateString();
+            strings[i] = StringUtil.generateString();
         }
         LongestStringFinder stringFinder = new LongestStringFinder(strings);
         String longestString = stringFinder.findLongestString();
@@ -23,14 +25,5 @@ public class FindLongestStringMain {
             System.out.println(strings[i]);
         }
 
-    }
-
-    private static String generateString() {
-        int length = (int) (Math.random() * 100);
-        StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < length; i++) {
-            stringBuilder.append((char) (Math.random() * 28 + 'a'));
-        }
-        return stringBuilder.toString();
     }
 }

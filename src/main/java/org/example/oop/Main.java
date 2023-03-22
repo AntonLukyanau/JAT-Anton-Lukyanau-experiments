@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static void print(Parent obj) {
-        System.out.println("Parent");
+        System.out.println("SealedParent");
     }
 
     public static void print(Child obj) {
