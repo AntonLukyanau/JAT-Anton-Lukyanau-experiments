@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9df4b379-0929-42d7-8804-1ef0db24118f" name="Changes" comment="task from experts about check are two arrays contain same elements? (order and duplication don't influence on result)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/MyParametrAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/MyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/MyRecordAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/MyTypeAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java11/HttpClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java11/TakeWhileMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/SwitchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/TextBlocksMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/records/MyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/records/RecordsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/FinalSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/FinalSubSealedSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/FreeSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/NonSealedSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/SealedParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java17/sealedclasses/SealedSubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/showsomething/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/varargs/SomeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/varargs/VarargsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/InterviewTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/streams/InterviewTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/longeststr/FindLongestStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/longeststr/FindLongestStringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/oop/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/oop/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sealedexpl/C.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +284,8 @@
       <workItem from="1679037917157" duration="1041000" />
       <workItem from="1679061343125" duration="4678000" />
       <workItem from="1679296960466" duration="20000" />
-      <workItem from="1679497988668" duration="20370000" />
+      <workItem from="1679497988668" duration="24173000" />
+      <workItem from="1680017230215" duration="1562000" />
     </task>
     <task id="LOCAL-00001" summary="Serialization test">
       <created>1671104943062</created>
